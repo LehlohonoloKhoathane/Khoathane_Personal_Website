@@ -1021,6 +1021,7 @@ button {
 
 .layer p span{
   font-weight: bold;
+  font-style: italic;
 }
 
 .layer a{
