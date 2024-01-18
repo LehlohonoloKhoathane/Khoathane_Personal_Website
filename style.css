@@ -75,24 +75,7 @@ section{
   }
 }
 
-
 .btn{
-  color: #fff;
-  background: #3a6cf4;
-  font-size: 1em;
-  font-weight: 600;
-  display: inline-block;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 1px;
-  border-radius: 2px;
-  margin-top: 30px;
-  transition: 0.5s ease;
-  margin-left: 15px;
-}
-
-.btn-projects{
   color: #fff;
   background: #3a6cf4;
   font-size: 1em;
