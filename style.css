@@ -1019,6 +1019,10 @@ button {
   font-weight: 500;
 }
 
+.layer p span{
+  font-weight: bold;
+}
+
 .layer a{
   color: whitesmoke;
   margin-top: 5px;
