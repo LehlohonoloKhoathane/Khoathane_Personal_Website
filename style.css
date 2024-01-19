@@ -46,7 +46,7 @@ section{
 }
 
 .animated-text h3{
-  color: #4e9eff;
+  color: #1b9bff;
   font-size: 3em;
   font-weight: 700;
   line-height: 70px;
@@ -77,7 +77,7 @@ section{
 
 .btn{
   color: #fff;
-  background: #3a6cf4;
+  background: #1b9bff;
   font-size: 1em;
   font-weight: 600;
   display: inline-block;
@@ -121,7 +121,7 @@ header{
 }
 
 header.sticky{
-  background: #3a6cf4;
+  background: #1b9bff;
   padding: 10px 200px;
 }
 
@@ -554,7 +554,7 @@ body{
 
 .send-btn{
   color: #fff;
-  background: #3a6cf4;
+  background: #1b9bff;
   display: inline-block;
   font-size: 1.1em;
   font-weight: 500;
@@ -704,33 +704,6 @@ body{
   .about .content .col-right{
     margin-top: 40px;
   }
-
-  /* .skills .content{
-    flex-direction: column;
-  }
-
-  .skills .content .column{
-    position: relative;
-    width: 100%;
-  }
-
-  .skills .content .col-right{
-    margin-top: 40px;
-  } */
-
-/* 
-  .skills .content .card{
-    background: transparent;
-    height: 100px;
-    width: 100px;
-    margin: 10px;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px;
-  } */
 
   .contact-form{
     padding: 35px 40px;
