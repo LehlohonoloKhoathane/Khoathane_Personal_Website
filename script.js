@@ -89,6 +89,9 @@ commentInput.addEventListener('input', function(){
 //preventing the form submission if the values do not meet the requirement
 myForm.addEventListener('submit', function(event){
     event.preventDefault();
+    //disable the submit button to prevent multiple submissions
+    document.getElementById('submit-btn').disabled = true;
+
     const isNameValid = validName();
     const isPhoneValid = validPhone();      
     const isEmailValid = validEmail();
@@ -120,9 +123,19 @@ myForm.addEventListener('submit', function(event){
           timer: 4000 // Close the alert after 4 seconds
         }).then(() => {
           myForm.reset(); // Reset the form after the alert is closed
+
+          //disable the submit button to prevent multiple submission
+          document.getElementById('submit-btn').disabled = false;
         });
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err)
+        
+          // Enable the submit button if the form validation fails
+          document.getElementById('submit-btn').disabled = false;
+      });
+    } else {
+      document.getElementById('submit-btn').disabled = false;
     }
 });
 
