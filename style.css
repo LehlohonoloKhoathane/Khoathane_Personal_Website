@@ -181,7 +181,7 @@ body{
   left: 50%;
   width: 140px;
   height: 4px;
-  background: #3a6cf4;
+  background: #1b9bff;
   transform: translateX(-50%);
 }
 
@@ -193,7 +193,7 @@ body{
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #3a6cf4;
+  background: #1b9bff;
   transform: translateX(-50%);
 }
 
@@ -325,7 +325,7 @@ body{
 }
 
 .services .content .card .service-icon{
-  color: #3a6cf4;
+  color: #1b9bff;
   font-size: 8em;
   text-align: center;
   transition: transform 0.5s ease;
@@ -344,7 +344,7 @@ body{
 }
 
 .services .content .card .info h3{
-  color: #3a6cf4;
+  color: #1b9bff;
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
@@ -382,7 +382,7 @@ body{
 }
 
 .skills .content .card .service-icon{
-  color: #3a6cf4;
+  color: #1b9bff;
   font-size: 0.5px;
   text-align: center;
   transition: transform 0.5s ease;
@@ -401,18 +401,12 @@ body{
 }
 
 .skills .content .card .info h3{
-  color: #3a6cf4;
+  color: #1b9bff;
   font-size: 1em;
   font-weight: 700;
   margin: 10px;
 }
 
-
-
-
-
-
-/* ############################################################ */
 .work{
   background: #002139;
 }
@@ -486,14 +480,14 @@ body{
 }
 
 .contact .content .row .card .contact-icon{
-  color: #3a6cf4;
+  color: #1b9bff;
   font-size: 4em;
   text-align: center;
   transition: transform 0.5s ease;
 }
 
 .contact .content .row .card .contact-icon a:visited{
-   color: #3a6cf4;
+   color: #1b9bff;
 }
 
 .contact .content .row .card:hover .contact-icon{
@@ -587,7 +581,7 @@ body{
 }
 
 .footer p a{
-  color: #3a6cf4;
+  color: #1b9bff;
   font-weight: 600;
   text-decoration: none;
 }
@@ -877,21 +871,6 @@ body{
   max-width: 60%;
 }
 
-/* @media screen and (max-width: 990px){
-  .container{
-    grid-template-columns: repeat(1, 1fr);
-    padding: 2rem 50px;
-  }
-}
-
-@media screen and (max-width: 550px){
-  .container{
-    grid-template-columns: repeat(1, 1fr);
-  }
-} */
-
-
-/*====================Input focus==============*/
 input:focus {
   border: 2px solid #00bcd4;
   outline: none; /* Remove the default focus outline */
@@ -900,10 +879,6 @@ input:focus {
 .error-message {
   color: red;
 }
-
-
-
-/*]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]*/
 
 .container {
   display: flex;
@@ -946,7 +921,7 @@ button {
 .input-box input:focus::placeholder,
 .input-box textarea:focus::placeholder{
     padding: 4px;
-    color: ##00bcd4;
+    color: #00bcd4;
 }
 
 .input-box.Error input{
